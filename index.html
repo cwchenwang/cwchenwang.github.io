@@ -3,96 +3,83 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chen Wang</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Homepage of Chen Wang</title>
     <link href='https://fonts.googleapis.com/css?family=Pinyon Script' rel='stylesheet'>
-    <script src="script.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <!-- <div class="nav">Nav</div> -->
     <div class="container">
-        <div class="top">
-            <div class="left">
-                <h1 id="name">Chen Wang (王琛) </h1>
-                <p class="intro">I am now a CS master student at Tsinghua University, advised by Prof. Shi-Min Hu and
+        <div class="row intro">
+            <div class="col-9">
+                <h1 class="text-center">Chen Wang (王琛)</h1>
+                <p>I am now a CS master student at Tsinghua University, advised by Prof. Shi-Min Hu and
                     Prof. Song-Hai Zhang. My research interest lies in computer vision, computer graphics. My research goal aims to help machines to perceive the 3D world, which involves 3D scene understanding, modelling and interaction.</p>
-                <p class="intro">I received my Bachelors' degree in CS and Economics (Second Major) from Tsinghua
+                <p>I received my Bachelors' degree in CS and Economics (Second Major) from Tsinghua
                     University in June, 2020.
                 </p>
-                <p class="intro quote">"Our primary drive in life is not pleasure, but the discovery and pursuit of what we personally find meaningful."</p>
-                <div class="links">
+                <p class="quote">"Our primary drive in life is not pleasure, but the discovery and pursuit of what we personally find meaningful. (In Man's Search For Meaning)"</p>
+                <div class="links text-center">
                     <a href="mailto:wchen20@mails.tsinghua.edu.cn">Email</a>
                     <a href="data/CV_en.pdf">CV</a>
                     <a href="https://www.linkedin.com/in/%E7%90%9B-%E7%8E%8B-05509b161/">Linkedin</a>
                 </div>
             </div>
-            <div class="right">
-                <img class="avatar" src="data/pic.JPG" display="block">
+            <div class="col-3">
+                <img src="data/pic.JPG" class="avatar img-fluid rounded-circle">
             </div>
         </div>
-        <div class="section publications">
-            <p class="section-name">Publications</p>
-            <div class="pub-list">
-                <ul>
-                    <li>NeRF-SR: High-Quality Neural Radiance Fields using Super-sampling</li>
-                    <li><u>Chen Wang</u>, Xian Wu, Yuan-Chen Guo, Song-Hai Zhang, Yu-Wing Tai, Shi-Min Hu</li>
-                    <li><em>Arxiv Preprint, 2022</em></li>
-                    <li style="margin-bottom: 10px"><a
-                        href="https://arxiv.org/abs/2112.01759">Paper</a>&nbsp;|&nbsp;<a
-                        href="https://cwchenwang.github.io/nerf-sr">Project Page</a></li>
+        <div class="row justify-content-center">
+            <div class="col-10">
+                <p class="section-name">Publications</p>
+                <div class="pub-list pub-link">
+                    <ul>
+                        <li>NeRF-SR: High-Quality Neural Radiance Fields using Super-sampling</li>
+                        <li><u>Chen Wang</u>, Xian Wu, Yuan-Chen Guo, Song-Hai Zhang, Yu-Wing Tai, Shi-Min Hu</li>
+                        <li><em>Arxiv Preprint, 2022</em></li>
+                        <li style="margin-bottom: 10px"><a
+                            href="https://arxiv.org/abs/2112.01759">Paper</a>&nbsp;|&nbsp;<a
+                            href="https://cwchenwang.github.io/nerf-sr">Project Page</a></li>
 
-                    <li>Learning Implicit Glyph Shape Representation</li>
-                    <li>Ying-Tian Liu, Yuan-Chen Guo, Yi-Xiao Li, <u>Chen Wang</u>, Song-Hai Zhang</li>
-                    <li style="margin-bottom: 10px"><em>IEEE Transactions on Visualization and Computer Graphics, 2022</em></li>
+                        <li>Learning Implicit Glyph Shape Representation</li>
+                        <li>Ying-Tian Liu, Yuan-Chen Guo, Yi-Xiao Li, <u>Chen Wang</u>, Song-Hai Zhang</li>
+                        <li style="margin-bottom: 10px"><em>IEEE Transactions on Visualization and Computer Graphics, 2022</em></li>
 
-                    <li>On Rotation Gains Within and Beyond Perceptual Limitations for Seated VR</li>
-                    <li><u>Chen Wang</u>, Song-Hai Zhang, Yi-Zhuo Zhang, Stefanie Zollmann, Shi-Min Hu</li>
-                    <li style="margin-bottom: 10px"><em>IEEE Transactions on Visualization and Computer Graphics, 2022</em></li>
+                        <li>On Rotation Gains Within and Beyond Perceptual Limitations for Seated VR</li>
+                        <li><u>Chen Wang</u>, Song-Hai Zhang, Yi-Zhuo Zhang, Stefanie Zollmann, Shi-Min Hu</li>
+                        <li style="margin-bottom: 10px"><em>IEEE Transactions on Visualization and Computer Graphics, 2022</em></li>
 
-                    <li>PalmBoard: Leveraging Implicit Touch Pressure in Statistical Decoding for Indirect Text Entry.</li>
-                    <li>Xin Yi, <u>Chen Wang</u>, Xiaojun Bi, Yuanchun Shi (First Student Author)</li> 
-                    <li style="margin-bottom: 10px"><em>ACM CHI Conference on Human Factors in Computing Systems, 2020</em> (<a
-                        href="https://www.youtube.com/watch?v=QyvJfqplGdI&t=408s">Talk</a>)</li>
-                </ul>
-            </div>
-        </div>
-        <div class="section experience">
-            <p class="section-name">Experiences</p>
-            <div class="exp-list">
-                <ul>
-                    <li>2020.08 - Present: Graduate Research Assistant at Graphics and Geometry Group, DCST, Tsinghua
-                        University
-                    </li>
-                    <li>2020.06 - 2020.08: Software Engineer Intern at Tencent</li>
-                    <li>2019.07 - 2019.08: Visiting student at University of Southern California</li>
-                    <li>2018.10 - 2020.06: Undergraduate Research Assistant at HCI group, DCST, Tsinghua University</li>
-                </ul>
-            </div>
-        </div>
-        <!-- <div class="section">
-            <button type="button" onclick="expandMisc()" class="section-name collapsible" id="coll">Misc
-                (Click if Interested)</button>
-            <div id="misc" class="collapse-content">
-                <div class="intro misc">I do desultory reading in my free time, books that I
-                    recently read include <em>Educated, Love in the time of Cholera, The Structure of Scientific
-                        Revolution,
-                        A Promised Land, Justice: What's the right thing to do, Becoming, The Silent Patient, 乡土中国,
-                        万历十五年</em> etc. If you like books
-                    regarding philosophy, culture, biography or any other interesting topics, feel free to recommend
-                    them to
-                    me.
-                </div>
-                <div class="intro misc">
-                    I am also an amateur left-handed basketball player (retired). BTW, I'm a fan
-                    of DubNation.
+                        <li>PalmBoard: Leveraging Implicit Touch Pressure in Statistical Decoding for Indirect Text Entry.</li>
+                        <li>Xin Yi, <u>Chen Wang</u>, Xiaojun Bi, Yuanchun Shi (First Student Author)</li> 
+                        <li><em>ACM CHI Conference on Human Factors in Computing Systems, 2020</em></li>
+                        <li style="margin-bottom: 10px"><a
+                            href="https://github.com/cwchenwang/PalmBoard">Code</a>&nbsp;|&nbsp;<a
+                            href="https://www.youtube.com/watch?v=QyvJfqplGdI&t=408s">Video</a></li>
+                    </ul>
                 </div>
             </div>
-        </div> -->
-        <footer>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-10">
+                <p class="section-name">Experiences</p>
+                <div class="exp-list">
+                    <ul>
+                        <li>2020.08 - Present: Graduate Research Assistant at Graphics and Geometry Group, DCST, Tsinghua
+                            University
+                        </li>
+                        <li>2020.06 - 2020.08: Software Engineer Intern at Tencent</li>
+                        <li>2019.07 - 2019.08: Visiting student at University of Southern California</li>
+                        <li>2018.10 - 2020.06: Undergraduate Research Assistant at HCI group, DCST, Tsinghua University</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <footer class="text-center">
             <p>This website was last updated by Chen in May, 2022.</p>
-            <p>© Copyright 2021 </p>
+            <p>© Copyright 2021</p>
         </footer>
     </div>
 
