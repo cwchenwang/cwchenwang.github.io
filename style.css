@@ -26,6 +26,7 @@ div.ftsubheader{float:right;padding-left:20px;padding-right:20px}
 div.ftheader{display:inline-block;color:rgb(105, 105, 105)}
 div.ftsubheader{display:inline-block;color:rgb(105, 105, 105)}
 div.ftsubheader a:link,
+div.ftheader a:link,
 div.ftheader{display:inline-block;color:rgb(105, 105, 105)}
 div.ftsubheader{display:inline-block;color:rgb(105, 105, 105)}
 div.ftheader{float:left;padding-left:15px;font-size:1.17em}
