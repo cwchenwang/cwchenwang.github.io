@@ -1,0 +1,87 @@
+body {
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  color: #000;
+  background-color: rgb(244, 247, 249);
+}
+
+/* box shadow from https://www.w3schools.com/css/css3_shadows_box.asp */
+.header {
+  overflow: hidden;
+  background-color: rgb(244, 246, 249);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* from http://web.stanford.edu/~jksun/css/main.css */
+/* header{width:100%;height:50px;margin-top:0px;text-align:center;background-color:#ffffff;position:fixed;z-index:2} */
+div.header{line-height:50px;}
+div.ftheader a{text-decoration: none;}
+div.ftsubheader a{text-decoration: none;}
+div.ftsubheader a:hover{text-decoration:underline}
+div.ftsubheader{float:right;padding-left:20px;padding-right:20px}
+div.ftheader{display:inline-block;color:rgb(105, 105, 105)}
+div.ftsubheader{display:inline-block;color:rgb(105, 105, 105)}
+div.ftsubheader a:link,
+div.ftheader{display:inline-block;color:rgb(105, 105, 105)}
+div.ftsubheader{display:inline-block;color:rgb(105, 105, 105)}
+div.ftheader{float:left;padding-left:15px;font-size:1.17em}
+div.ftsubheader a:visited{color:#7c7c7c;text-decoration:none}
+div.ftheader a:visited{color:#7c7c7c;text-decoration:none}
+
+.intro {
+  font-size: 16px;
+  margin-top: 30px;
+  padding: 60px;
+}
+
+.quote {
+  font-family: 'Pinyon Script';
+}
+
+.avatar {
+  width: 100%;
+  /* height: 100%; */
+  /* border-radius: 50%; */
+  object-fit: cover;
+}
+
+.links a {
+  text-align: center;
+  width: 50px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.pub-link a {
+  text-decoration: none;
+}
+
+.section-name {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.exp-list, .pub-list {
+  font-size: 16px;
+}
+
+.center-row {
+  margin: auto;
+}
+
+li {
+  list-style: none;
+}
+
+footer {
+  margin-top: 50px;
+  font-size: 10pt;
+}
+
+footer p {
+  margin-bottom: 0;
+}
