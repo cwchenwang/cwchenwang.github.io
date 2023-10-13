@@ -18,20 +18,65 @@ body {
 
 /* from http://web.stanford.edu/~jksun/css/main.css */
 /* header{width:100%;height:50px;margin-top:0px;text-align:center;background-color:#ffffff;position:fixed;z-index:2} */
-div.header{line-height:50px;}
-div.ftheader a{text-decoration: none;}
-div.ftsubheader a{text-decoration: none;}
-div.ftsubheader a:hover{text-decoration:underline}
-div.ftsubheader{float:right;padding-left:20px;padding-right:20px}
-div.ftheader{display:inline-block;color:rgb(105, 105, 105)}
-div.ftsubheader{display:inline-block;color:rgb(105, 105, 105)}
+div.header {
+  line-height: 50px;
+}
+
+div.ftheader a {
+  text-decoration: none;
+}
+
+div.ftsubheader a {
+  text-decoration: none;
+}
+
+div.ftsubheader a:hover {
+  text-decoration: underline
+}
+
+div.ftsubheader {
+  float: right;
+  padding-left: 20px;
+  padding-right: 20px
+}
+
+div.ftheader {
+  display: inline-block;
+  color: rgb(105, 105, 105)
+}
+
+div.ftsubheader {
+  display: inline-block;
+  color: rgb(105, 105, 105)
+}
+
 div.ftsubheader a:link,
 div.ftheader a:link,
-div.ftheader{display:inline-block;color:rgb(105, 105, 105)}
-div.ftsubheader{display:inline-block;color:rgb(105, 105, 105)}
-div.ftheader{float:left;padding-left:15px;font-size:1.17em}
-div.ftsubheader a:visited{color:#7c7c7c;text-decoration:none}
-div.ftheader a:visited{color:#7c7c7c;text-decoration:none}
+div.ftheader {
+  display: inline-block;
+  color: rgb(105, 105, 105)
+}
+
+div.ftsubheader {
+  display: inline-block;
+  color: rgb(105, 105, 105)
+}
+
+div.ftheader {
+  float: left;
+  padding-left: 15px;
+  font-size: 1.17em
+}
+
+div.ftsubheader a:visited {
+  color: #7c7c7c;
+  text-decoration: none
+}
+
+div.ftheader a:visited {
+  color: #7c7c7c;
+  text-decoration: none
+}
 
 .intro {
   font-size: 16px;
@@ -52,9 +97,10 @@ div.ftheader a:visited{color:#7c7c7c;text-decoration:none}
 
 .links a {
   text-align: center;
-  width: 50px;
+  /* width: 100px; */
   display: inline-block;
   text-decoration: none;
+  margin-right: 20pt;
 }
 
 .pub-link a {
@@ -66,7 +112,8 @@ div.ftheader a:visited{color:#7c7c7c;text-decoration:none}
   font-size: 20px;
 }
 
-.exp-list, .pub-list {
+.exp-list,
+.pub-list {
   font-size: 16px;
 }
 
