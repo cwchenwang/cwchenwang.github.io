@@ -2,7 +2,8 @@ body {
   font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
   font-weight: 500;
   color: #000;
-  background-color: rgb(233, 234, 233);
+  /* background-color: rgb(233, 234, 233); */
+  background-color: #fff;
 }
 
 /* box shadow from https://www.w3schools.com/css/css3_shadows_box.asp */
@@ -19,8 +20,8 @@ body {
 .container {
   max-width: 1000px;
   margin: 50px auto 0px;
-  background: #fff;
-  box-shadow: 2px 2px 7px rgba(100, 100, 100, 0.5);
+  /* background: #fff; */
+  /* box-shadow: 2px 2px 7px rgba(100, 100, 100, 0.5); */
 }
 
 /* from http://web.stanford.edu/~jksun/css/main.css */
