@@ -113,6 +113,12 @@ div.ftheader a:visited {
   margin-right: 20pt;
 }
 
+.links1 a {
+  text-align: center;
+  /* width: 100px; */
+  text-decoration: none;
+}
+
 .pub-item a,
 .exp-list a {
   text-decoration: none;
