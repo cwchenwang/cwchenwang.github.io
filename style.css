@@ -164,3 +164,48 @@ footer {
 footer p {
   margin-bottom: 0;
 }
+
+.body-posts a {
+  color: #000000;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.slides .row {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.item {
+  margin-bottom: 0.5em;
+  display: table;
+  page-break-inside: avoid;
+}
+
+.date {
+  width: 165px;
+  display: table-cell;
+}
+
+.posttitle {
+  display: table-cell;
+}
+
+.blog-date {
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  font-size: .85em;
+  margin-top: .5em;
+  margin-bottom: 1em;
+}
+
+.body-posts {
+  font-family: 'Helvetica', sans-serif;
+  font-weight: 300;
+}
+
+.body-posts h1 {
+  font-family: "Helvetica", sans-serif;
+  /*font-variant: small-caps;*/
+  font-weight: 300;
+}
