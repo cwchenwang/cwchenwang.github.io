@@ -18,10 +18,17 @@ body {
 }
 
 .container {
-  max-width: min(48%, 1000px);
+  /* max-width: min(48%, 1000px); */
+  max-width: 1000px;
   margin: 50px auto 0px;
   /* background: #fff; */
   /* box-shadow: 2px 2px 7px rgba(100, 100, 100, 0.5); */
+}
+
+@media (min-width: 2000px) {
+  .container {
+    max-width: 48%;
+  }
 }
 
 /* from http://web.stanford.edu/~jksun/css/main.css */
