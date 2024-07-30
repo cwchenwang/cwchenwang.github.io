@@ -6,6 +6,11 @@ body {
   background-color: #fff;
 }
 
+video {
+  display: block;
+  margin: auto;
+}
+
 /* box shadow from https://www.w3schools.com/css/css3_shadows_box.asp */
 .header {
   overflow: hidden;
