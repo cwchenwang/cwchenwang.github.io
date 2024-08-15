@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
     <!-- <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet"> -->
 
@@ -109,13 +110,13 @@
                 <p class="section-name" style="margin-bottom: 3pt; ">Selected Publications</p>
                 <p style="margin-bottom: 3pt;">* denotes equal contribution</p>
                 <div class="row justify-content-center pub-item">
-                    <div class="col-md-4 paper-thumbnail">
-                        <img src="data/paper_thumbnail/geco.png" alt="geco" class="img-fluid mx-auto rounded"
-                            style="width: 250px; display: block;">
-                    </div>
+                    <div class="col-md-4"><model-viewer tone-mapping="neutral"
+                            src="data/paper_thumbnail/animal_character.glb" style="width: 100%;"
+                            orientation="0deg 0deg 180deg" shadow-intensity="1" camera-controls="" touch-action="pan-y"
+                            ar-status="not-presenting"></model-viewer></div>
                     <div class="col-md-8 paper-info">
                         <!-- Paper Title -->
-                        GECO: Generative Image-to-3D within a SECOnd
+                        GECO🦎: Generative Image-to-3D within a SECOnd
                         <p class="text-muted"><u>Chen Wang</u>, Jiatao Gu, Xiaoxiao Long, Yuan Liu, Lingjie Liu</p>
                         <p><em>Arxiv, 2024</em></p>
                         <p><a href="https://arxiv.org/abs/2405.20327">Paper</a>&nbsp;|&nbsp;<a
@@ -181,7 +182,8 @@
                     </div>
                     <div class="col-md-8 paper-info">
                         Digging into Depth Priors for Outdoor Neural Radiance Fields
-                        <p class="text-muted"><u>Chen Wang</u>, Jiadai Sun, Lina Liu, Chenming Wu, Zhelun Shen, Dayan
+                        <p class="text-muted"><u>Chen Wang</u>, Jiadai Sun, Lina Liu, Chenming Wu, Zhelun Shen,
+                            Dayan
                             Wu, Yuchao Dai,
                             Liangjun Zhang</p>
                         <p><em>ACM International Conference on Multimedia (Oral), 2023</em></p>
@@ -211,7 +213,8 @@
                     </div>
                     <div class="col-md-8 paper-info">
                         DeepPortraitDrawing: Generating Human Body Images from Freehand Sketches
-                        <p class="text-muted"><u>Chen Wang*</u>, Xian Wu*, Hongbo Fu, Ariel Shamir, Song-Hai Zhang</p>
+                        <p class="text-muted"><u>Chen Wang*</u>, Xian Wu*, Hongbo Fu, Ariel Shamir, Song-Hai Zhang
+                        </p>
                         <p><em>Computer & Graphics (CAD/Graphics Oral), 2023</em></p>
                     </div>
                 </div>
