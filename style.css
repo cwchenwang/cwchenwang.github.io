@@ -11,6 +11,12 @@ video {
   margin: auto;
 }
 
+ol,
+ul {
+  padding-left: 1rem;
+}
+
+
 /* box shadow from https://www.w3schools.com/css/css3_shadows_box.asp */
 .header {
   overflow: hidden;
@@ -24,7 +30,7 @@ video {
 
 .container {
   /* max-width: min(48%, 1000px); */
-  max-width: 1000px;
+  max-width: 850px;
   margin: 50px auto 0px;
   /* background: #fff; */
   /* box-shadow: 2px 2px 7px rgba(100, 100, 100, 0.5); */
@@ -132,6 +138,7 @@ div.ftheader a:visited {
 }
 
 .pub-item a,
+.pub-item-v2 a,
 .exp-list a {
   text-decoration: none;
 }
@@ -139,19 +146,57 @@ div.ftheader a:visited {
 .pub-item {
   align-items: center;
   margin-top: 20px;
-  margin-bottom: 20px;
 }
 
+.pub-item-v2 {
+  display: flex;
+  /* Arrange thumbnail and info in a row */
+  align-items: center;
+  /* Vertically align image and text */
+  gap: 20px;
+  /* Space between image and text */
+  margin-bottom: 20px;
+  /* Add space between items */
+}
+
+.paper-thumbnail {
+  flex: 0 0 33%;
+  /* Fix width to 30% of the container */
+  max-width: 30%;
+  /* Ensure it doesn’t exceed 30% */
+}
+
+.paper-thumbnail img {
+  width: 100%;
+  /* Make image fill its container */
+  height: 150px;
+  /* Maintain aspect ratio */
+  object-fit: fill;
+  /* Adjust image scaling */
+}
+
+.paper-info {
+  flex: 0 0 67%;
+  /* Fix width to 70% of the container */
+  max-width: 70%;
+  /* Ensure it doesn’t exceed 70% */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* Center-align text vertically */
+}
+
+.paper-info-v1 p,
 .paper-info p {
   margin-bottom: 0px;
 }
 
 .section-name {
   /* Solid line on top*/
-  border-top: 1.5px solid rgb(160, 160, 160);
+  /* border-top: 1.5px solid rgb(160, 160, 160); */
   padding-top: 5px;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 25px;
   margin-bottom: 5px;
 }
 
