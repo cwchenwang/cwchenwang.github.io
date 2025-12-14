@@ -136,7 +136,7 @@ ul {
 
 .hero-name {
   font-size: 2.5rem;
-  font-weight: 700;
+  font-weight: 550;
   color: #0f172a;
   margin-bottom: 10px;
 }
@@ -175,7 +175,7 @@ ul {
   padding: 0;
   margin-right: 0;
   color: #1d4ed8;
-  font-weight: 600;
+  font-weight: 500;
   letter-spacing: 0.01em;
   text-decoration: none;
   transition: color 0.2s ease;
@@ -307,7 +307,7 @@ ul {
 
 .paper-title {
   font-size: 1.0rem;
-  font-weight: 600;
+  font-weight: 550;
   margin-bottom: 2px;
 }
 
