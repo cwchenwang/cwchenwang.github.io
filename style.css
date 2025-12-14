@@ -63,7 +63,7 @@ ul {
 }
 
 .nav-brand a {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 1.35rem;
   color: #0f172a;
   text-decoration: none;
@@ -79,7 +79,7 @@ ul {
 .nav-links a {
   text-decoration: none;
   font-size: 0.95rem;
-  font-weight: 600;
+  font-weight: 550;
   color: #606a7c;
   letter-spacing: 0.02em;
   position: relative;
@@ -315,6 +315,10 @@ ul {
   font-weight: 500;
   color: #000;
   margin-bottom: 4px;
+}
+
+.paper-authors strong {
+  font-weight: 550;
 }
 
 .section-name {
