@@ -33,17 +33,10 @@ ul {
 
 .container {
   /* max-width: min(48%, 1000px); */
-  max-width: 850px;
+  max-width: 1000px;
   margin: 62px auto 0px;
-  padding: 0 20px;
   /* background: #fff; */
   /* box-shadow: 2px 2px 7px rgba(100, 100, 100, 0.5); */
-}
-
-@media (min-width: 2000px) {
-  .container {
-    max-width: 48%;
-  }
 }
 
 /* Global navigation */
@@ -197,44 +190,11 @@ ul {
 
   .nav-links {
     justify-content: center;
-    gap: 16px;
-  }
-
-  .nav-brand a {
-    font-size: 1.2rem;
-  }
-
-  .hero-name {
-    font-size: 1.5rem;
-  }
-
-  .hero-card {
-    padding: 10px;
-  }
-
-  .hero-card p {
-    font-size: 0.85rem;
-    line-height: 1.5;
-  }
-
-  .hero-avatar img {
-    width: 100px;
-    height: 100px;
-  }
-
-  .hero-links {
-    gap: 8px;
-    font-size: 0.85rem;
-  }
-
-  .container {
-    padding: 0 15px;
   }
 }
 
 @media (min-width: 992px) {
   .hero-avatar {
-    justify-content: flex-end;
     margin-top: 0;
   }
 
