@@ -18,6 +18,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet"> -->
 
@@ -50,42 +52,53 @@
         <div class="row justify-content-center">
             <div class="col-12">
                 <div class="hero-panel">
-                    <div class="row align-items-center intro hero-section">
-                        <div class="links1 col-12 col-lg-9 hero-card">
-                            <h1 class="hero-name text-center text-lg-start">Chen Wang&nbsp&nbsp<span
-                                    style="font-family: STXingkai;">王琛</span>
+                    <!-- Name, Photo, and Links Section -->
+                    <div class="row align-items-end intro hero-section">
+                        <div class="col-12 col-lg-10">
+                            <h1 class="hero-name">Chen Wang&nbsp&nbsp<span
+                                    style="font-family: STXingkai; font-weight: 400;">王琛</span>
                             </h1>
-                            <p>I am a CIS PhD student (Fall 2023 - Now) at the University of Pennsylvania,
-                                where I am advised by <a href="https://lingjie0206.github.io/">Prof.
-                                    Lingjie Liu</a>. My research has been partly
-                                supported by <a href="https://www.meshy.ai/blog/fellowship-2025">Meshy AI
-                                    Fellowship</a>.</p>
-                            <p>
-                                I am interested in Generative AI and its applications, including but not limited to 3D
-                                vision
-                                and
-                                computer graphics. I am open to research discussions, feel free to drop me an email!
-                            </p>
-                            <p>I did my undergraduate and master study in CS at Tsinghua University, working with Prof.
-                                <a href=" https://scholar.google.com/citations?user=LDb4tb0AAAAJ&hl=en&oi=ao">Shi-Min
-                                    Hu</a>
-                                and <a href="https://scholar.google.com/citations?user=AWtV-EQAAAAJ&hl=en&oi=ao">Prof.
-                                    Song-Hai
-                                    Zhang</a>.
-                            </p>
-                            <!-- <p class=" quote">"Our primary drive in life is not pleasure, but the discovery and pursuit of
-                        what we personally find meaningful. (In Man's Search For Meaning)"</p> -->
-                            <div class="links hero-links text-center text-lg-start">
-                                <a href="mailto:cw.chenwang@outlook.com">Email</a>
-                                <a href="https://scholar.google.com/citations?user=5cY3Ho4AAAAJ&hl=en">Google
-                                    Scholar</a>
-                                <a href="https://x.com/chenwangcw">Twitter</a>
-                                <a href="https://www.linkedin.com/in/chen-wang-05509b161/">Linkedin</a>
+                            <div class="hero-links">
+                                <a href="https://scholar.google.com/citations?user=5cY3Ho4AAAAJ&hl=en">
+                                    <i class="fas fa-graduation-cap"></i> Google Scholar
+                                </a>
+                                <a href="https://x.com/chenwangcw">
+                                    <i class="fab fa-twitter"></i> Twitter
+                                </a>
+                                <a href="https://www.linkedin.com/in/chen-wang-05509b161/">
+                                    <i class="fab fa-linkedin"></i> LinkedIn
+                                </a>
+                                <a href="mailto:cw.chenwang@outlook.com">
+                                    <i class="fas fa-envelope"></i> Email
+                                </a>
                             </div>
                         </div>
-                        <div class="col-12 col-lg-3 hero-avatar text-center">
+                        <div class="col-12 col-lg-2 hero-avatar text-center">
                             <img src="data/pic.png" class="avatar img-fluid rounded-circle">
                         </div>
+                    </div>
+
+                    <!-- Bio Section -->
+                    <div class="hero-bio">
+                        <p>I am a CIS PhD student (Fall 2023 - Now) at the University of Pennsylvania,
+                            where I am advised by <a href="https://lingjie0206.github.io/">Prof.
+                                Lingjie Liu</a>. My research has been partly
+                            supported by <a href="https://www.meshy.ai/blog/fellowship-2025">Meshy AI
+                                Fellowship</a>.</p>
+                        <p>
+                            I am interested in Generative AI and its applications, including but not limited to 3D
+                            vision
+                            and
+                            computer graphics. I am open to research discussions, feel free to drop me an email!
+                        </p>
+                        <p>I completed my undergraduate and master study in CS at Tsinghua University, working with
+                            Prof.
+                            <a href=" https://scholar.google.com/citations?user=LDb4tb0AAAAJ&hl=en&oi=ao">Shi-Min
+                                Hu</a>
+                            and Prof.<a href="https://scholar.google.com/citations?user=AWtV-EQAAAAJ&hl=en&oi=ao">
+                                Song-Hai
+                                Zhang</a>.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -280,7 +293,7 @@
             </div>
         </div>
         <div class="row justify-content-center" id="services">
-            <div class="col-12">
+            <div class="col-12" style="margin-top: 5pt; ">
                 <p class="section-name">Services</p>
                 <div class="exp-list">
                     <ul>
