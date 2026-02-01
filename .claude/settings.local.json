@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(tree:*)",
+      "Bash(python convert_posts.py:*)",
+      "Bash(where:*)",
+      "Bash(python3:*)"
+    ]
+  }
+}

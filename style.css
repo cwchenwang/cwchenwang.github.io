@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;600&display=swap');
+
 body {
-  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  font-family: "Source Sans Pro", Helvetica, Arial, "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
   font-weight: 500;
   color: #000;
   /* background-color: rgb(233, 234, 233); */
@@ -436,12 +438,18 @@ footer p {
 }
 
 .body-posts {
-  font-family: 'Helvetica', sans-serif;
+  font-family: 'Helvetica', "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
   font-weight: 300;
 }
 
+.body-posts .slides img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .body-posts h1 {
-  font-family: "Helvetica", sans-serif;
+  font-family: "Helvetica", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
   /*font-variant: small-caps;*/
   font-weight: 300;
 }
